@@ -1,0 +1,42 @@
+<html>
+        <body><!DOCTYPE html>
+<html>
+    <head>
+        </head>
+    <body onload="whenloaded()">
+        <button onclick="add()">Click me </button>
+
+        <form onsubmit="formsubmited()">
+            Fullname <input type="text"><br>
+            Password <input type="text">
+            <input type="submit">
+            </form>
+            <h1 onmouseover="mouseover()">Heading 1</h1>
+            <h2 onmousedown="mousepressed()">Heading 2</h2>
+            <h3 onmouseup="mousereleased()">Heading 3</h3>
+        </body>
+</html></body>
+        <style></style>
+        <script>function add(){
+var a=8
+var b=12
+var c=a+b;
+document.write(c)
+}
+function formsubmited(){
+    alert("You Submited the form")
+}
+function whenloaded(){
+    alert("You Refreshed the Page")
+}
+function mouseover(){
+    alert("Mouse went over heading");
+}
+function mousepressed(){
+    alert("Mouse was clicked");
+}
+function mousereleased(){
+    alert("Mouse was released");
+}
+</script>
+      </html>
